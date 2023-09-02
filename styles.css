@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+p{
+    color: black;
+    text-indent: 20px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+h1{
+    color: black;
+    text-decoration: underline;
+}
+.button{
+    display: inline-block;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+.button1{
+    background-color: blueviolet;
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    float: right;
+    vertical-align: middle;
+}
