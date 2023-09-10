@@ -1,18 +1,60 @@
-/*.login{
-    background: url(https://e1.pxfuel.com/desktop-wallpaper/557/687/desktop-wallpaper-abstract-nature-light-purple-aesthetic-pc.jpg) no-repeat center center/cover;
+body{
+    color: blueviolet;
+    text-decoration: none;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+#all-members{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+form{
+    color: blueviolet;
+}
+mark{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+p{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.topnav{   
+    text-align: left; 
+    padding-left: 15%;
+}
+.topnav a{
+    text-decoration: none;
+    color: black;
+    padding-right: 5%;
+}
+.topnav a:hover{
+    text-decoration: underline;
+    color: thistle;
+    rotate: 10deg;
+}
+span{
+    transform: rotateY(10deg);
+}
+#all-members{
+    background: url(https://cdn.wallpapersafari.com/84/76/85eaC3.jpg) no-repeat center center/cover;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     height: 100vh;
     width: 100vw;
-}*/
-.all{
-    background: url(https://i.pinimg.com/736x/47/32/14/473214ee30697c5915fe81f8c854aba9.jpg) no-repeat center center/cover;
+}
+.topnav{
+    background-color: blanchedalmond;
     display: flex;
-    align-items: center;
+   /* align-items: center;*/
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    transform: rotate(10);
+    height: 5vh;
     width: 100vw;
 }

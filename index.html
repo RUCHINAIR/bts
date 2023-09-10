@@ -5,27 +5,44 @@
         <meta http-equiv="X-UA-Compatible" content="IE=9">
         <meta name="viewport" content="width:device-width; initial-scale=1.0">
         <title>Login Page</title>
-        <link rel="stylesheet" href="./combine.css">
         <link rel="stylesheet" href="./login.css">
     </head>
     <body> 
         <div id="bts" class="all">
-            <!-- test -->
+            <div class="topnav">
+                <nav class="nav">
+                    <a href="index.html">
+                        <span>Home</span>                            
+                    </a>
+                    <a href="index.html">
+                        <span>About</span>                       
+                    </a>
+                    <a href="index.html">
+                        <span>MVs</span>                      
+                    </a>
+                    <a href="index.html" id="new">
+                        <span>Run BTS Episodes</span>                 
+                    </a>
+                    <a href="index.html">
+                        <span>Debut Details</span>
+                    </a>
+                </nav>
+            </div>
             <div id="all-members">
                 <h1>BTS</h1>
                 <p><mark>(Korean: 방탄소년단; RR: Bangtan Sonyeondan; lit. Bulletproof Boy Scouts), also known as the Bangtan Boys, is a South Korean boy band formed in 2010. The band consists of Jin, Suga, J-Hope, RM, Jimin, V, and Jungkook, who co-write or co-produce much of their material.</mark></p>
-            </div>
-            <p><mark>Fill this form to know more about the members:</mark>
-                <form id="form" action="combine.html" target="_self">
+                <p><mark>Fill this form to know more about the members:</mark>
+                <form id="form" action="members.html" target="_self">
                     <hr>
                     <label for="fname">First name:</label><br>
-                    <input type="text" id="fname" name="fname" value="John"><br>
+                    <input type="text" id="fname" name="fname" required><br>
                     <label for="lname">Last name:</label><br>
-                    <input type="text" id="lname" name="lname" value="Doe"><br>
+                    <input type="text" id="lname" name="lname"required><br>
                     <input type="submit" value="here">
                     <hr>
                 </form>
-            </p>
-        </div>
+                </p>
+            </div>
+        </div>    
     </body>
 </html>
