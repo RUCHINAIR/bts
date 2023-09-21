@@ -4,6 +4,10 @@ body{
     padding: 0%;
     transition: all;
 }
+
+html {
+    scroll-behavior: smooth;
+}
 p{
     color: black;
     text-indent: 20px;
@@ -39,7 +43,7 @@ h1{
     font-size: 16px;
     border-radius: 4px;
     vertical-align: middle;
-    transition: all 1s ease-in-out;
+    /* transition: all 1s ease-in-out; */
 }
 .rm{
     background: url(https://wallpaperaccess.com/full/3615441.jpg) no-repeat center center/cover;

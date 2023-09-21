@@ -5,6 +5,7 @@ body{
     margin: 0%;
     padding: 0%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden;
 }
 #all-members{
     display: flex;
@@ -41,7 +42,9 @@ span{
     transform: rotateY(10deg);
 }
 #all-members{
-    background: url(https://cdn.wallpapersafari.com/84/76/85eaC3.jpg) no-repeat center center/cover;
+    background: url(https://wallpapers.com/images/hd/bts-group-photo-sunset-hc8tr143ewld7mad.jpg) no-repeat center center/cover;
+    /* background: linear-gradient(to top, #FFEBCD, #000000); */
+    /* background-color: #000000; */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -65,6 +68,7 @@ span{
     height: 30px;
     width: 200px;
     border-radius: 10px;
+    color: blanchedalmond;
 }
 #lname {
     background: transparent;
@@ -72,6 +76,7 @@ span{
     height: 30px;
     width: 200px;
     border-radius: 10px;
+    color: blanchedalmond;
 }
 #submit {
     background: transparent;
