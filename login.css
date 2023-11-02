@@ -42,9 +42,9 @@ span{
     transform: rotateY(10deg);
 }
 #all-members{
-    background: url(https://wallpapers.com/images/hd/bts-group-photo-sunset-hc8tr143ewld7mad.jpg) no-repeat center center/cover;
-    /* background: linear-gradient(to top, #FFEBCD, #000000); */
-    /* background-color: #000000; */
+    /* background: url(https://wallpapers.com/images/hd/bts-group-photo-sunset-hc8tr143ewld7mad.jpg) no-repeat center center/cover; */
+    background: linear-gradient(to top, #FFEBCD, #000000);
+    background-color: #000000;
     display: flex;
     align-items: center;
     flex-direction: column;
